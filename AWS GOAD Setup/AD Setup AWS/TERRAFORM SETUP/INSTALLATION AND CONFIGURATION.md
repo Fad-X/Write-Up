@@ -1,0 +1,14 @@
+	## Start by downloading and installing terraform
+- You can follow along woth this resource https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli
+- Follow the steps there 
+- You can have issues with "open -a Docker", that command is for Mac OS 
+- You can always switch to a LInux OS
+- ![[docker-switch.png]]
+- Running the terraform-init command after creating the main.tf, you should have something like this
+- ![[terraform-init.png]]
+- Setup and Install Docker, If you haven't, this resource will help https://docs.docker.com/engine/install/
+- then start the docker with ***terraform apply 
+- your terminal should be like this, if you check with **"docker ps"
+- ![[docker-ps.png]]
+- Now we have tested and Installed Terraform.
+- To stop a particular Docker instance run ***docker stop <ID>
